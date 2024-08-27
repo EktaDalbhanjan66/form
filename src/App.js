@@ -1,16 +1,12 @@
-import React from 'react'
-import FunForm from './components/FunForm'
-
-
-
-
+import React from "react";
+import NumberForm from "./components/NumberForm";
 
 const App = () => {
   return (
-   <>
-       <FunForm/>
-   </>
-  )
-}
+    <>
+      <NumberForm />
+    </>
+  );
+};
 
-export default App
+export default App;
