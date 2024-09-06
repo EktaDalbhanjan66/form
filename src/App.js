@@ -1,11 +1,15 @@
 import React from "react";
-import NumberForm from "./components/NumberForm";
+// import MainForm from "./components/MainForm";
+import SimpleForm from "./components/SimpleForm";
+
+
+
 
 const App = () => {
   return (
     <>
-      <NumberForm />
-    </>
+     <SimpleForm/>
+     </>
   );
 };
 
